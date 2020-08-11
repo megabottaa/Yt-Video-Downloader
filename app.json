@@ -1,0 +1,21 @@
+{
+  "name": "Yt Downloader Bot",
+  "description": "A bot to Download YouTube Videos",
+  "repository": "https://github.com/No-OnE-Kn0wS-Me/Yt-Video-Downloader",
+  "logo": "https://telegra.ph/file/33adaf8d6c398edf81967.jpg",
+  "keywords": ["telegram", "yt", "youtu.be","bot"],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "Your Bot token from @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your API_ID from https://my.telegram.org/apps ",
+      "value": ""
+    },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+} 
