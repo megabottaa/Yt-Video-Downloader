@@ -9,8 +9,6 @@ from telegram.ext import CommandHandler, RegexHandler, MessageHandler, Filters
 from telegram.ext import Updater
 
 from sample_config import Config
-else:
-    from config import Config
 
 allowed_user = Config.OWNER_ID
 telegram_token = Config.TG_BOT_TOKEN
