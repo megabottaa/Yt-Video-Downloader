@@ -5,7 +5,7 @@
   "logo": "https://telegra.ph/file/33adaf8d6c398edf81967.jpg",
   "keywords": ["telegram", "yt", "youtu.be","bot"],
   "env": {
-     "BOT_TOKEN": {
+     "TG_BOT_TOKEN": {
       "description": "Your Bot token from @Botfather",
       "value": ""
     },
