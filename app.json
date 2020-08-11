@@ -1,54 +1,22 @@
 {
-  "name": "Yt Downloader Bot",
-  "description": "This app does one little thing, and does it well.",
-  "keywords": [
-    "productivity",
-    "HTML5",
-    "scalpel"
-  ],
-  "website": "https://small-sharp-tool.com/",
+  "name": "Video Downloader bot",
+  "description": "A bot to Download Videos From yt",
   "repository": "https://github.com/No-OnE-Kn0wS-Me/Yt-Video-Downloader",
-  "logo": "https://small-sharp-tool.com/logo.svg",
-  "success_url": "/welcome",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
+  "logo": "https://telegra.ph/file/33adaf8d6c398edf81967.jpg",
+  "keywords": ["telegram", "yt", "video", "downloader", "bot"],
   "env": {
-    "TG_BOT_TOKEN": {
-      "description": "obtain a token from @BotFather.",
+     "BOT_TOKEN": {
+      "description": "Your Bot token from @Botfather",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "Your tg id.",
+      "description": "Your Telegram Id",
       "value": "861055237"
     }
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
-  },
-  "image": "heroku/ruby",
-  "addons": [
-    "openredis",
+   },
+   "buildpacks": [
     {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "9.5"
-      }
+      "url": "heroku/python"
     }
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/python/"
-    }
-  ],
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "bundle exec rake test"
-      }
-    }
-  }
+  ]
 }
