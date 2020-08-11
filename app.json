@@ -13,9 +13,4 @@
       "description": "Your API_ID from https://my.telegram.org/apps ",
       "value": ""
     },
-   "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ]
 } 
