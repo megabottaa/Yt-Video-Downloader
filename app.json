@@ -1,17 +1,17 @@
 {
   "name": "Video Downloader bot",
   "description": "A bot to Download Videos From yt",
-  "repository": "https://github.com/No-OnE-Kn0wS-Me/Yt-Video-Downloader",
+  "repository": "https://github.com/megabottaa/Yt-Video-Downloader",
   "logo": "https://telegra.ph/file/33adaf8d6c398edf81967.jpg",
   "keywords": ["telegram", "yt", "video", "downloader", "bot"],
   "env": {
      "BOT_TOKEN": {
       "description": "Your Bot token from @Botfather",
-      "value": ""
+      "value": "5276192835:AAF5APGWY_G7LK2sZdaNiQ23HPBV9cEANLs"
     },
     "OWNER_ID": {
       "description": "Your Telegram Id",
-      "value": "861055237"
+      "value": "1327361630"
     }
    },
    "buildpacks": [
